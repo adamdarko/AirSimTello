@@ -1,0 +1,12 @@
+Download and build Airsim as normal for your perticular build. see https://github.com/microsoft/AirSim
+git clone https://github.com/dji-sdk/Tello-Python.git
+python -m pip install tello py
+copy, paste, replace the tello py file into your anaconda site packages directory under the internal tab.
+run airsim in unity or unreal engine then run the airsimtellopycontrol file and you will see live simulation at the same
+as real world location movement with some lag.
+
+this is a work in progress.
+
+this was designed so i could use unreal engine and unitys graphics engine to create real world simulations with the ability to transfer
+simulation data into real world applictions. I.E. a farmer wants to create a realistic version of his farm based on gis data from terrain.party 
+and High defininition assets/polygon models that are realistic enough to train computer vision models on so he can build autonomous systems.
